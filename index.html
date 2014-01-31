@@ -13,18 +13,18 @@
 <meta http-equiv="cleartype" content="on">
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144"
-	href="img/touch/apple-touch-icon-144x144-precomposed.png">
+  href="img/touch/apple-touch-icon-144x144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114"
-	href="img/touch/apple-touch-icon-114x114-precomposed.png">
+  href="img/touch/apple-touch-icon-114x114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72"
-	href="img/touch/apple-touch-icon-72x72-precomposed.png">
+  href="img/touch/apple-touch-icon-72x72-precomposed.png">
 <link rel="apple-touch-icon-precomposed"
-	href="img/touch/apple-touch-icon-57x57-precomposed.png">
+  href="img/touch/apple-touch-icon-57x57-precomposed.png">
 <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
 
 <!-- Tile icon for Win8 (144x144 + tile color) -->
 <meta name="msapplication-TileImage"
-	content="img/touch/apple-touch-icon-144x144-precomposed.png">
+  content="img/touch/apple-touch-icon-144x144-precomposed.png">
 <meta name="msapplication-TileColor" content="#222222">
 
 
@@ -42,14 +42,30 @@
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/custom.css">
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-	<p>hi</p>
-	<!-- Add your site or application content here -->
-
-	<script src="js/vendor/zepto.min.js"></script>
-	<script src="js/helper.js"></script>
+  <!-- Add your site or application content here -->
+  <div id="main_content">
+    <header>
+      <h1>Hello MOOC from Thomas</h1>
+    </header>
+    <div id="movie">
+      <video id="myVideo" autoplay="autoplay" controls="controls">
+        <source type="video/webm" src="video/portrait.webm">
+        <source type="video/mp4"  src="video/portrait.mp4">
+        <source type="video/ogg"  src="video/portrait.ogv">
+        <embed src="video/portrait.flv" type="application/x-shockwave-flash" width="768" height="576" allowscriptaccess="always" allowfullscreen="true"></embed>
+      </video>
+    </div>
+    <footer>
+      <p>I know, it's minimalistic for now…</p>
+      <p>But I guess the purpose of this first exercise was to prove the installation went right.</p>
+    </footer>
+  </div>  
+  <script src="js/vendor/zepto.min.js"></script>
+  <script src="js/helper.js"></script>
 
 </body>
 </html>
