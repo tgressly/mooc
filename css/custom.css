@@ -4,5 +4,5 @@ body {
 
 #main_content {
   margin: 0 auto;
-  width: 780px;
+  max-width: 780px;
 }
