@@ -53,10 +53,12 @@
     </header>
     <div id="movie">
       <video id="myVideo" autoplay="autoplay" controls="controls">
-        <source type="video/webm" src="video/portrait.webm">
-        <source type="video/mp4"  src="video/portrait.mp4">
-        <source type="video/ogg"  src="video/portrait.ogv">
-        <embed src="video/portrait.flv" type="application/x-shockwave-flash" width="768" height="576" allowscriptaccess="always" allowfullscreen="true"></embed>
+        <source type="video/mp4"  src="video/portrait.mp4" />
+        <source type="video/webm" src="video/portrait.webm" />
+        <source type="video/ogg"  src="video/portrait.ogv" />
+        <track kind="subtitles" srclang="de" label="Deutsche Untertitel" src="video/portrait-de.vtt" />
+        <track kind="subtitles" srclang="gsw-CH" label="Schwiizertüütschi Undertitel" src="video/portrait-gsw-ch.vtt" />
+        <embed src="video/portrait.flv" type="application/x-shockwave-flash" width="768" height="576" allowscriptaccess="always" allowfullscreen="true" />
       </video>
     </div>
     <footer>
